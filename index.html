@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #progressbar {
+            background-color: black;
+            border-radius: 13px;
+            /* (height of inner div) / 2 + padding */
+            padding: 3px;
+        }
+
+        #progressbar>div {
+            background-color: orange;
+            width: 40%;
+            /* Adjust with JavaScript */
+            height: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+
+        <h2><a href="#Home">Home</a></h2>
+        <h2><a href="#About">About</a></h2>
+        <h2><a href="#projects">Projects</a></h2>
+        <h2><a href="#Skills">Skils</a></h2>
+        <h2><a href="">Contact</a></h2>
+        </div>
+    </nav>
+
+    <section id="Home" class="top-section flexible-content">
+
+        <div class="half-width">
+            <h1>Welcome To</h1>
+            <h1><span class="aqua-color">Naim Hasan</span> World!</h1>
+            <h3>Junior Web Developer And Student</h3>
+            <p>I am a Naim Hasan.I am a student of AIUB. I am a student of CSE department.I am also a
+                front-end web developer.I have one plus experience in this field.I am also a freelancer.I completed 25
+                projects in fiverr.I like playing vedio games and travelling.My hobby is playing football and programming.</p>
+            <a class="link-button" target="_blank"
+                href="">Hire Me</a>
+        </div>
+        <div class="half-width"><img src="images/n1.jpeg" alt=""></div>
+    </section>
+    <section id="About" class="dream flexible-content">
+        <div class="half-width">
+            <img src="images/n2.jpg" alt="">
+        </div>
+        <div class="half-width">
+            <h1>Dream Big</h1>
+            <h3>Become a web developer</h3>
+            <p>I want to be a web developer.I learn html,css.I am dedicated to become web developer.I am passionate on
+                this field.Become a web developer it's my dream.I have one year experience in front-end field.I like
+                playing games and travelling.My hobby is playing cricket and programming.</p>
+            <a class="link-button" target="_blank"
+                href="">Download Resume</a>
+        </div>
+    </section>
+    <section id="Skills" class="skill-section  ">
+        <h1 id="skills">Skills</h1>
+        <div class="flexible-content">
+            <div class="skill-item">
+                <h3>HTML</h3>
+                <div id="progressbar">
+
+                    <div>85%</div>
+                </div>
+
+                <h3>CSS</h3>
+                <div id="progressbar">
+
+                    <div>75%</div>
+                </div>
+
+                <h3>BOOTSTRAP</h3>
+                <div id="progressbar">
+
+                    <div>70%</div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="skill-item">
+                <h3>JavaScript</h3>
+                <div id="progressbar">
+
+                    <div>70%</div>
+                </div>
+                <h3>C++</h3>
+                <div id="progressbar">
+
+                    <div>65%</div>
+                </div>
+                <h3>JAVA</h3>
+                <div id="progressbar">
+
+                    <div>60%</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="projects" class="project-section">
+
+        <h1 id="Projects">Projects</h1>
+        <div class="flexible-content">
+            <div id="cpp" class="project-item">
+                <h2>C++</h2>
+                <h3 class="aqua-color">
+                    Library Management System 
+                </h3>
+                <p>This C++ menu driven programs on LIBRARY MANAGEMENT SYSTEM has book and student class with data members like book no, bookname, authorname. Books records is stored in a binary file. A student can issue book and deposit it within 15 days. Student is allowed to issue only one book. Student Records are stored in binary file. Administrator can add, modify or delete record.</p>
+            </div>
+            <div id="java" class="project-item">
+                <h2>Java</h2>
+                <h3 class="aqua-color">
+                    Email Management System
+                </h3>
+                <p>  The objective of the “Email Management
+                    System” is to create random email and password by taking their names
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact" class="contact-section">
+
+        <h1 id="contacts">Contact ME</h1>
+        <div class="flexible-content">
+            <div id="information" class="contact-item">
+                <h2>Contact With Me</h2>
+                <h3>
+                    Email: naimhassanmim@gmail.com
+                </h3>
+
+                <h3>
+                    Phone: 
+                </h3>
+
+                <h3>
+                    Address: Dhap Jail Road,Rangpur
+                </h3>
+
+            </div>
+            <div id="message" class="contact-item">
+                <h2>Send Message</h2>
+                <input class="email" type="Name" placeholder="Enter your name"><br>
+                <input class="email" type="text" placeholder="Enter your Phone Number"><br>
+                <textarea class="email" name="message" rows="10" required placeholder="Enter Your Message"></textarea><br>
+                <input class="input-button" type="button" value="submit">
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>&copy;2021 Naim Hasan </p>
+    </footer>
+
+
+
+
+</body>
+
+</html>
